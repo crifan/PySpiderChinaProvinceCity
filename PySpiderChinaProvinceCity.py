@@ -93,8 +93,8 @@ class Handler(BaseHandler):
 
     def on_start(self):
         # init province city list
-        # self.dowloadProvinceCity()
-        self.mergeProvinceCity()
+        self.dowloadProvinceCity()
+        # self.mergeProvinceCity()
 
     def mergeProvinceCity(self):
         gProvinceCityList = loadJsonFromFile(constProvinceListFullpath)
@@ -213,6 +213,7 @@ class Handler(BaseHandler):
 
         for eachProvince in provinceList:
             provinceIdStr = eachProvince["provinceId"]
+            print("provinceIdStr=%s" % provinceIdStr)
             provinceIdInt = int(provinceIdStr)
             eachProvince["provinceId"] = provinceIdInt
 
@@ -234,8 +235,8 @@ class Handler(BaseHandler):
 
             # add itag and hash value for url to force re-crawl when POST url not changed
             timestampStr = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-            # fakeItag = "%s_%s" % (provinceIdStr, timestampStr)
-            urlWithHash = "%s#%s_%s" % (getCityUrl, provinceIdStr, timestampStr)
+            # fakeItag = "%s_%s" % (provinceIdInt, timestampStr)
+            urlWithHash = "%s#%s_%s" % (getCityUrl, provinceIdInt, timestampStr)
 
             self.crawl(
                 # getCityUrl,
