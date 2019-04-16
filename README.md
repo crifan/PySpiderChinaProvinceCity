@@ -129,9 +129,9 @@ total 2272
 
 ### 数据在哪里
 
-在`OutputRoot`变量定义的目录下的`provinceCityLis_YYYYMMDD.json`
-
-比如：[中国省市区数据列表 provinceCityList_20190416.json](https://github.com/crifan/PySpiderChinaProvinceCity/blob/master/output/provinceCityList_20190416.json)
+* 在`OutputRoot`变量定义的目录下的：`provinceCityLis_YYYYMMDD.json`
+  * 比如：
+    * [中国省市区数据列表 provinceCityList_20190416.json](https://github.com/crifan/PySpiderChinaProvinceCity/raw/master/output/provinceCityList_20190416.json)
 
 ### 数据结构关系
 
