@@ -1,0 +1,23 @@
+[
+  {
+    "activeCity": true,
+    "appHotLevel": 1,
+    "cityAbbrCode": "AM",
+    "cityAreaCode": "+853",
+    "cityEnName": "macau",
+    "cityId": 342,
+    "cityLevel": 100,
+    "cityName": "澳门",
+    "cityOrderId": 230,
+    "cityPyName": "aomen",
+    "directURL": "",
+    "gLat": 22.198745,
+    "gLng": 113.543873,
+    "overseasCity": true,
+    "parentCityId": 0,
+    "provinceId": 33,
+    "scenery": false,
+    "standardEnName": "Macau",
+    "tuanGouFlag": 1
+  }
+]

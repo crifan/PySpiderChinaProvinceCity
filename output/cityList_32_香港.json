@@ -1,0 +1,23 @@
+[
+  {
+    "activeCity": true,
+    "appHotLevel": 1,
+    "cityAbbrCode": "HK",
+    "cityAreaCode": "+852",
+    "cityEnName": "hongkong",
+    "cityId": 341,
+    "cityLevel": 2,
+    "cityName": "香港",
+    "cityOrderId": 5704,
+    "cityPyName": "xianggang",
+    "directURL": "",
+    "gLat": 22.299625,
+    "gLng": 114.172095,
+    "overseasCity": true,
+    "parentCityId": 0,
+    "provinceId": 32,
+    "scenery": false,
+    "standardEnName": "Hong Kong",
+    "tuanGouFlag": 1
+  }
+]

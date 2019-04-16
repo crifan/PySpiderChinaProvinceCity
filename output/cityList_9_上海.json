@@ -1,0 +1,42 @@
+[
+  {
+    "activeCity": true,
+    "appHotLevel": 0,
+    "cityAbbrCode": "CMX",
+    "cityAreaCode": "021",
+    "cityEnName": "chongmingqu",
+    "cityId": 3580,
+    "cityLevel": 100,
+    "cityName": "崇明区",
+    "cityOrderId": 784,
+    "cityPyName": "chongmingxian",
+    "directURL": "",
+    "gLat": 31.62289,
+    "gLng": 121.3973,
+    "overseasCity": false,
+    "parentCityId": 1,
+    "provinceId": 9,
+    "scenery": false,
+    "tuanGouFlag": 1
+  },
+  {
+    "activeCity": true,
+    "appHotLevel": 1,
+    "cityAbbrCode": "SH",
+    "cityAreaCode": "021",
+    "cityEnName": "shanghai",
+    "cityId": 1,
+    "cityLevel": 1,
+    "cityName": "上海",
+    "cityOrderId": 4570,
+    "cityPyName": "shanghai",
+    "directURL": "",
+    "gLat": 31.230708,
+    "gLng": 121.472916,
+    "overseasCity": false,
+    "parentCityId": 0,
+    "provinceId": 9,
+    "scenery": false,
+    "tuanGouFlag": 1
+  }
+]
